@@ -312,6 +312,26 @@ section#subscribe {
 
 section#subscribe p {
     color: #b5b9bd;
+    font-size: 18px;
+    font-weight: 200px;
+    line-height: 32px;
+    width: 650px;
+    margin-top: 60px;
+    float: left;
+}
+
+section#subscribe p.follow {
+    width: 480px;
+    float: right;
+}
+
+section#subscribe p.follow a {
+    color: #54aced;
+    font-weight: 700;
+}
+
+/*section#subscribe p {
+    color: #b5b9bd;
     font-size: 22px;
     font-weight: 200px;
     line-height: 32px;
@@ -346,7 +366,7 @@ section#subscribe .subscribe-submit {
     position: absolute;
     top: 20px;
     right: 50px;
-}
+}*/
 
 footer {
     height: 80px;
