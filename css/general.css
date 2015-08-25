@@ -18,6 +18,11 @@ body {
     width: 1200px;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: 70%;
+}
+
 header {
     background: url(../img/header_background.jpg) #1f2132;
     height: 981px;
@@ -308,14 +313,38 @@ section#pricing #basic_pricing a.inactive {
 
 section#subscribe {
     height: 190px;
+    display: inline-block;
+
+}
+
+
+section#subscribe div.subscribe {
+    margin-top: 80px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section#subscribe a.subscribe {
+  
+   
+    padding: 10px 80px;
+    border: 2px solid #ff7263;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ff7263;
+   
 }
 
 section#subscribe p {
-    color: #b5b9bd;
-    font-size: 18px;
-    font-weight: 200px;
+    color: #1f2132;
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    font-weight: 32;
     line-height: 32px;
-    width: 650px;
+    width: 70%;
     margin-top: 60px;
     float: left;
 }
@@ -328,6 +357,7 @@ section#subscribe p.follow {
 section#subscribe p.follow a {
     color: #54aced;
     font-weight: 700;
+
 }
 
 /*section#subscribe p {
