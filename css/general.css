@@ -313,8 +313,6 @@ section#pricing #basic_pricing a.inactive {
 
 section#subscribe {
     height: 190px;
-    display: inline-block;
-
 }
 
 
@@ -326,15 +324,27 @@ section#subscribe div.subscribe {
 }
 
 section#subscribe a.subscribe {
-  
-   
     padding: 10px 80px;
     border: 2px solid #ff7263;
     border-radius: 50px;
     text-transform: uppercase;
     text-decoration: none;
     color: #ff7263;
+
    
+}
+
+section#subscribe a.subscribe:hover {
+    background: #ff7263;
+    color: #ffffff;
+}
+
+section#subscribe a {
+    color: #1f2132;
+}
+
+section#subscribe a:hover {
+    color: #ff7263;
 }
 
 section#subscribe p {
